@@ -1,0 +1,20 @@
+{
+  "name": "@utils-js/algo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@utils-js/ds": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
