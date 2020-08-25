@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9850aa4-02c5-433f-ab96-ef6d06e30c24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/merge-sort/merge-sort.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/src/merge-sort/merge-sort.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/src/heap/binary-heap.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/src/heap/binary-heap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/src/priority-queue/priority-queue.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/src/priority-queue/priority-queue.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/src/trie/trie.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/src/trie/trie.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/algo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ds/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ds/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -28,7 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eOLUdkNGSagmTNeUZRpTjGPrAZ" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -37,9 +49,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ds" />
@@ -49,6 +61,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="run.prettier.on.save" value="true" />
@@ -59,6 +72,89 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ds" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algo/src/item" />
+      <recent name="$PROJECT_DIR$/algo/src/merge-sort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.test trie">
+    <configuration name="test Priority Queue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/ds" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/ds/src/priority-queue/priority-queue.spec.ts" />
+      <test-names>
+        <test-name value="test Priority Queue" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test trie" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/ds" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/ds/src/trie/trie.spec.ts" />
+      <test-names>
+        <test-name value="test trie" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test trie.empty trie" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/ds" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ds/src/trie/trie.spec.ts" />
+      <test-names>
+        <test-name value="test trie" />
+        <test-name value="empty trie" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test trie.isPrefix after adding words" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/ds" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ds/src/trie/trie.spec.ts" />
+      <test-names>
+        <test-name value="test trie" />
+        <test-name value="isPrefix after adding words" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test trie.isWord after adding words" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/ds" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/ds/src/trie/trie.spec.ts" />
+      <test-names>
+        <test-name value="test trie" />
+        <test-name value="isWord after adding words" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.test trie" />
+        <item itemvalue="Jest.test trie.isWord after adding words" />
+        <item itemvalue="Jest.test trie.isPrefix after adding words" />
+        <item itemvalue="Jest.test trie.empty trie" />
+        <item itemvalue="Jest.test Priority Queue" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -74,7 +170,10 @@
       <workItem from="1594187711094" duration="3913000" />
       <workItem from="1596078922932" duration="10294000" />
       <workItem from="1596121504883" duration="2961000" />
-      <workItem from="1597579220359" duration="2880000" />
+      <workItem from="1597579220359" duration="13672000" />
+      <workItem from="1597658709304" duration="80000" />
+      <workItem from="1598039175981" duration="541000" />
+      <workItem from="1598263598246" duration="7540000" />
     </task>
     <servers />
   </component>
@@ -85,6 +184,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598288563981">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598288563981" />
+    <state width="1659" height="294" key="GridCell.Tab.0.bottom" timestamp="1598290330288">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598290330288" />
+    <state width="1659" height="294" key="GridCell.Tab.0.bottom/0.23.1680.969@0.23.1680.969" timestamp="1597657686827" />
+    <state width="1659" height="294" key="GridCell.Tab.0.center" timestamp="1598290330288">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598290330288" />
+    <state width="1659" height="294" key="GridCell.Tab.0.center/0.23.1680.969@0.23.1680.969" timestamp="1597657686826" />
+    <state width="1659" height="294" key="GridCell.Tab.0.left" timestamp="1598290330287">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598290330287" />
+    <state width="1659" height="294" key="GridCell.Tab.0.left/0.23.1680.969@0.23.1680.969" timestamp="1597657686825" />
+    <state width="1659" height="294" key="GridCell.Tab.0.right" timestamp="1598290330288">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598290330288" />
+    <state width="1659" height="294" key="GridCell.Tab.0.right/0.23.1680.969@0.23.1680.969" timestamp="1597657686827" />
     <state x="542" y="146" key="SettingsEditor" timestamp="1597583466342">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
@@ -93,5 +216,9 @@
       <screen x="0" y="23" width="1680" height="969" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1680.969@0.23.1680.969" timestamp="1594189363940" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597595345568">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597595345568" />
   </component>
 </project>
